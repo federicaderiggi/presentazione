@@ -1,0 +1,153 @@
+
+@font-face {
+font-family: 'Roboto';
+src: url('Roboto-Light-webfont.woff') format('woff'); font-style: normal;
+font-weight: 300;
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #5D6063;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.boxTrieste{
+   background-image: url(images/trieste.jpeg) ;
+   padding:430px 300px ;
+   background-attachment: fixed;
+   background-size: 1500px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.boxPalermo{
+   background-image: url(images/palermo.jpeg) ;
+   padding:430px 300px ;
+   background-size: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.boxRoma{
+   background-image: url(images/roma.jpeg) ;
+   padding:430px 300px ;
+   background-size: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.footer{
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 140px;
+  background-color: black;
+}
+
+.item-relative {
+  position: relative;
+  top: 15px;
+  left: '0'px; }
+
+
+  h1 {
+
+  font-size: 60px;
+    font-style: oblique;
+
+  }
+
+
+
+a {
+    color: white;
+}
+
+a:hover
+{
+     color: pink;
+     cursor:default;
+}
+
+b {
+    color: white;
+    cursor:default;
+     font-weight: 300;
+}
+
+b:hover
+{
+     color: Lightblue;
+     cursor:default;
+     font-weight: 300;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 560px) {
+  .section {
+    margin:4em ;
+    padding: 2.5em 3em;
+
+  }
+  .section--white {
+    border: 5px solid white ;
+  }
+}
+
+
+@media only screen and (min-width: 580px) {
+  .section {
+
+    margin: 4em auto;
+    padding: 2.5em 3em;}
+
+  .section--gray {
+    border: 3px solid white;
+  }
+}
+
+
+
+
+
+
+
+
+  /* domande da fare:
+  il  titolo che vada da quelle due immagini
+  quadrato dentro quadrato
+  blccare il border quando muovo la pagins
+  */
